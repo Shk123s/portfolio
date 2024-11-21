@@ -1,8 +1,8 @@
 
-import project1 from "../../p/src/assets/react.svg";
-import project2 from "../../p/src/assets/react.svg";
-import project3 from "../../p/src/assets/react.svg";
-import project4 from "../../p/src/assets/react.svg";
+import project1 from "../constants/Myntra.jpg";
+import project2 from "../constants/chatApplication.jpg";
+import project3 from "../constants/stripe.png";
+import project4 from "../constants/bot.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -10,68 +10,55 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "2024 - Present",
+    role: "Backend Developer",
+    company: "Fourty60 Infotech Pvt Ltd. ",
+    description: ` Developing and maintaining web applications using JavaScript, Express.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. collaborating with team for   upcoming  requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Backend Developer",
+    company: "Mobcast Pvt Ltd.",
+    description: `Designed and developed Backend for web applications using Node.js and Sql. Worked closely with backend developers.`,
+    technologies: ["Js", "NodeJs", "ExpressJS", "mySQL"],
   },
 ];
 
 export const PROJECTS = [
+ 
   {
-    title: "E-Commerce Website",
+    title: "Myntra Apis",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A backend apis for ecommerce, with features such as cart,roles,user managment,products,sort and pagination and pusher for notification.",
+    technologies: ["Js","Nodejs", "Expressjs", "SQL"],
   },
   {
-    title: "Task Management App",
+    title: "Chat Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Mern chat application with integration of websocket,can have chats with each other and group     creation ,group conversation.",
+    technologies: ["HTML", "CSS", "Js","React","NodeJs","ExpressJS", "MongoDB"],
   },
   {
-    title: "Portfolio Website",
+    title: "Stripe Integration",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A platform for payment through card,upi,etc.. .",
+    technologies: ["HTML", "CSS", "Ejs", "NodeJs","ExpressJs", "MySQL"],
   },
   {
-    title: "Blogging Platform",
+    title: "FindNearBy Bot",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A telegram bot which finds near by places with help of foursquare apis by exacting  user  longitude and latitude.",
+    technologies: [ "Node.js","ExpressJs","MySql"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: " Byculla west, Mumbai, 400011 ",
+  phoneNo: "+91 8104319200 ",
+  email: "shaqeebsk1234@gmail.com",
 };

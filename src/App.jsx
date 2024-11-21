@@ -1,9 +1,12 @@
+import Contactus from "./components/Contactus";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <>
       <div className="overflow-x-hidden text-stone-300 antialiased">
         <div className="fixed inset-0 -z-10">
           <div className="relative h-full w-full">
@@ -14,9 +17,12 @@ function App() {
             <div className="container mx-auto px-8 ">
               <Navbar />
               <Hero/>
+              <Technologies/>
+              <Projects/>
+              <Experience/>
+              <Contactus/>
             </div>
       </div>
-    </>
   );
 }
 
