@@ -28,7 +28,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
  
   {
-    title: "Myntra Apis",
+    title: "Myntra Backend Clone",
     image: project1,
     description:
       "A backend apis for ecommerce, with features such as cart,roles,user managment,products,sort and pagination and pusher for notification.",
