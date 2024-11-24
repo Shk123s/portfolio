@@ -5,7 +5,7 @@ import project3 from "../constants/stripe.png";
 import project4 from "../constants/bot.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting
- robust and scalable web applications. With 1 years of hands-on experience,
+ robust and scalable web applications. With 1  years of hands-on experience,
   I have honed my skills in front-end technologies like React and Next.js, as
    well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.
     My goal is to leverage my expertise to create innovative solutions
