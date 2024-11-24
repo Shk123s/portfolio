@@ -33,17 +33,17 @@ export const EXPERIENCES = [
 export const PROJECTS = [
  
   {
-    title: "Myntra Apis",
+    title: "Myntra Backend Clone",
     image: project1,
     description:
-      "A backend apis for ecommerce, with features such as cart,roles,user managment,products,sort and pagination and pusher for notification.",
+      "A backend apis for ecommerce, with features such as cart,roles,user managment, products, sort and pagination and pusher for notification.",
     technologies: ["Js","Nodejs", "Expressjs", "SQL"],
   },
   {
     title: "Chat Application",
     image: project2,
     description:
-      "Mern chat application with integration of websocket,can have chats with each other and group     creation ,group conversation.",
+      "Mern chat application with integration of websocket,can have chats with each other and group creation, group conversation.",
     technologies: ["HTML", "CSS", "Js","React","NodeJs","ExpressJS", "MongoDB"],
   },
   {
