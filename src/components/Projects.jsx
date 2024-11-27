@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../../constants";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -47,6 +48,32 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
+              </div>
+              <div className="flex">
+                {project.link && (
+                  <div className="mt-1">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" mr-2 rounded bg-white p-2 text-sm font-medium text-black-300 my-2 text-black hover:underline"
+                    >
+                      Visit Project
+                    </a>
+                  </div>
+                )}{" "}
+                {project.github && (
+                  <div className="mt-1">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="GitHub"
+                    >
+                      <FaGithub  size={26}/>
+                    </a>
+                  </div>
+                )}
               </div>
             </motion.div>
           </div>

@@ -31,34 +31,40 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
- 
-  {
-    title: "Myntra Backend Clone",
-    image: project1,
-    description:
-      "A backend apis for ecommerce, with features such as cart,roles,user managment, products, sort and pagination and pusher for notification.",
-    technologies: ["Js","Nodejs", "Expressjs", "SQL"],
-  },
   {
     title: "Chat Application",
     image: project2,
     description:
-      "Mern chat application with integration of websocket,can have chats with each other and group creation, group conversation.",
-    technologies: ["HTML", "CSS", "Js","React","NodeJs","ExpressJS", "MongoDB"],
+      "MERN chat application with integration of websocket, can have chats with each other and group creation, group conversation.",
+    technologies: ["HTML", "CSS", "Js", "React", "NodeJs", "ExpressJS", "MongoDB"],
+    link: "https://chatapplicaton.netlify.app/",
+    github:"https://github.com/Shk123s/chatapp-server"
   },
   {
     title: "Stripe Integration",
     image: project3,
-    description:
-      "A platform for payment through card,upi,etc.. .",
-    technologies: ["HTML", "CSS", "Ejs", "NodeJs","ExpressJs", "MySQL"],
+    description: "A platform for payment through card, UPI, etc.",
+    technologies: ["HTML", "CSS", "Ejs", "NodeJs", "ExpressJs", "MySQL"],
+    link: "https://myntra-apis.onrender.com",
+    github:"https://github.com/Shk123s/Myntra-Apis"
   },
   {
     title: "FindNearBy Bot",
     image: project4,
     description:
-      "A telegram bot which finds near by places with help of foursquare apis by exacting  user  longitude and latitude.",
-    technologies: [ "Node.js","ExpressJs","MySql"],
+      "A telegram bot which finds nearby places with the help of Foursquare APIs by extracting user longitude and latitude.",
+    technologies: ["Node.js", "ExpressJs", "MySQL"],
+    link: "http://t.me/shaqeeb_bot",
+    github:"https://github.com/Shk123s/findNearBy-Bot"
+  },
+  {
+    title: "Myntra Backend Clone",
+    image: project1,
+    description:
+      "A backend apis for ecommerce, with features such as cart, roles, user management, products, sort and pagination and pusher for notification.",
+    technologies: ["Js", "Nodejs", "Expressjs", "SQL"],
+    link: "https://notificationservice-j9og.onrender.com",
+    github:"https://github.com/Shk123s/NotificationService"
   },
 ];
 
