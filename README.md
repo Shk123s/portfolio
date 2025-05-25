@@ -1,1 +1,1 @@
-https://shaqeebportfolio.netlify.app/
+https://shaqeebshaikh.site
